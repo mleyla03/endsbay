@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footers{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.lims{
+    color:rgb(246, 33, 75)
+
+}
+.right i{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+ 
+ 
+
+    margin-left: 10px;
+    color: rgb(204, 204, 204);
+    transition: all 0.3s ease 0s;
+}
+.right i:hover{
+    background-color: rgb(246, 33, 75);
+}
+

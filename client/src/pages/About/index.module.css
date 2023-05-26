@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.abouts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.onep{
+     color: rgb(119, 119, 119);;
+}
+.cards{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(246, 33, 75, 0.3) 0px 20px 60px 0px;
+}

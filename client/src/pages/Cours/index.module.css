@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.onep{
+     color: rgb(119, 119, 119);
+     margin: 20px;
+}
+.images{
+    position: relative;
+    
+    width:310px;
+     height:220px;
+    overflow: hidden;
+}
+.images span{
+    position: absolute;
+    left: 20px;
+    background-color: rgb(246, 33, 75);
+    display: block;
+    padding: 5px 8px;
+    font-size: 13px;
+    color: white;
+    bottom: 40px;
+}
+
+ 
+  .images:hover img {
+ 
+    transition: 1.3s;
+    transform: scale(1.1);
+  }

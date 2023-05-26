@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-image: url("https://preview.colorlib.com/theme/gym/img/header-bg.jpg.webp");
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.homes{
+    height: 90vh;
+    background-color: rgba(73, 66, 66, 0.385);
+}
+.homes h1{
+    font-size: 30px;
+    text-shadow: 1px 1px 1px white;
+    font-weight: bold;
+}
+.texts{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
